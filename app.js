@@ -13,3 +13,24 @@ alert("Happy Coding!");
 
 //chapter#2
 //Q1
+var username = "Ali";
+//Q2
+var myName ="Wagmina Zaman";
+
+//Q3
+var message= "Hello world";
+alert(message);
+
+//Q4
+var name="wagmina"
+var father_name="khan"
+var age ="20"
+alert(name);
+alert(father_name);
+alert(age);
+
+//Q5
+
+var name="wagmina"
+// name.splice(1,1);
+alert(name);
