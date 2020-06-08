@@ -45,23 +45,80 @@ alert(name + "\n" + name[0]+name[1]+name[2]+name[3]+ "\n" +name[0]+name[1]+name[
 
  //Q7
 
- var Book= "A smarter way to learn javascript from saylani.";
+ var Book = "A smarter way to learn javascript from saylani.";
  alert(Book);
 
  //Q8
 
- Document.writeln("Yah! i can write HTML content through JavaScript.")
+ document.writeln("Yah! i can write HTML content through JavaScript.")
 
  //Q9
 
     alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
     document.writeln("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
 
+// chapter#3
+
+// Q1
+
+var age = 20;
+alert("i am"+ age + " years old ");
+
+//Q2
+
+var BirthYear = 1990;
+document.writeln("My birthyear is "+ BirthYear +"<br>" + "Dta type of my declared variable is number");
+
+//Q3
+
+var name="Wagmina";
+var product = "watch";
+var quantity= 5;
+document.writeln(name +" ordered " + quantity + "  "+ product + " on wag clothing store");
 
 
-
-    //chapter#3
+    //chapter#4
 
     //Q1
 
-    
+    var name1,name2,name3;
+
+    //Q2
+    //legal variables
+    var name;
+    var foot;
+    var age;
+    var father_name;
+    var mother_name;
+
+    //illegal variables
+
+    // var 6name;
+    // var -father;
+    // var @age;
+    // var #class;
+    // var 1246;
+
+    // Q3
+
+document.writeln("<h1>"+"Rules for naming JS variables"+"</h1>"+"<br>");
+document.writeln("Variable names can only contain ______, ______, ______ and ______. "+"<br>");
+document.writeln("Variables must begin with a ______, ______ or _____."+"<br>");
+document.writeln("Variable names are case _________"+"<br>");
+document.writeln("Variable names should not be JS _________");
+
+
+
+// chapter#5
+
+// q1
+
+var a =+ prompt("enter firest number");
+var b =+ prompt("enter second number");
+var c = a+b;
+document.writeln("sum of "+a + " and "+ b +" is "+ c);
+
+
+// Q2
+
+
